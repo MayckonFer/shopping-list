@@ -19,7 +19,6 @@ const createTask = (event) => {
     task.appendChild(ButtonConcludesTask())
     task.appendChild(ButtonDelete())
     list.appendChild(task)
-
     
     input.value = ""
 
